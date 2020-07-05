@@ -1,0 +1,131 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img {
+      filter: contrast(40%);
+      border: 2px solid black;
+      border-radius: 15px;
+  }
+
+  footer {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
+  p {
+      font-weight: bold;
+  }
+
+  table, th, td {
+      border: 1px solid black;
+  }
+
+  th, td {
+      padding: 8px;
+      text-align: left;
+  }
+
+  th {
+      background-color: blue;
+      color: white;
+
+  }
+
+  .centered {
+    position: absolute;
+    top: 200px;
+    right:37%;
+    color:white;
+    transform: translate(-50%, -50%);
+  }
+
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li  {
+      float: left;    
+  }
+
+  li a {
+      display: block;
+      padding: 8px;
+      background-color: #ddd;
+  }
+
+  li a:hover {
+      background-color: #444;
+  }
+
+  .column {
+      float: left;
+      width: 50%;
+  }
+
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .column {
+      color: blue;
+  }
+
+  .row {
+      height: 100px;
+      width: 700px;
+  }
+
+  p:hover {
+      background-color: coral;
+  }
+ 
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
